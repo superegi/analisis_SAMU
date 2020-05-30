@@ -25,3 +25,4 @@ for script in scripts:
         exec(open(str(script)).read())
 
 BD = pd.read_pickle('../llamadas_contraspaso.pkl')
+
