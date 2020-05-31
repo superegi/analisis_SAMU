@@ -44,22 +44,22 @@ plt.savefig('../Resultado_script/Llamadas_duracion_Abril2020.png')
 plt.clf()
 #plt.show()
 
-DLG_duracion(BD, '2018-03-20', '201805-15')
-DLG_duracion(BD, '2019-03-20', '201905-15')
+DLG_duracion(BD, '2018-03-20', '2018-05-15')
+DLG_duracion(BD, '2019-03-20', '2019-05-15')
 DLG_duracion(BD, '2020-03-20', '2020-05-15', titulo = 'Duración de llamadas por hora \n Mismo periodo 2018, 2019 y 2020')
 plt.savefig('../Resultado_script/Duración por hora.png')
 # plt.show()
 plt.clf()
 
-DLG_cantidad(BD, '2018-03-20', '201805-15')
-DLG_cantidad(BD, '2019-03-20', '201905-15')
+DLG_cantidad(BD, '2018-03-20', '2018-05-15')
+DLG_cantidad(BD, '2019-03-20', '2019-05-15')
 DLG_cantidad(BD, '2020-03-20', '2020-05-15', titulo = 'Cantidad de llamadas por hora \n Mismo periodo 2018, 2019 y 2020')
 plt.savefig('../Resultado_script/Cantidad por hora.png')
 # plt.show()
 plt.clf()
 
-# print(tablaCDR_general(BD, '2019-03-20', '201905-15'))
-# print(tablaCDR_general(BD, '2020-03-20', '202005-15'))
+# print(tablaCDR_general(BD, '2019-03-20', '2019-05-15'))
+# print(tablaCDR_general(BD, '2020-03-20', '2020-05-15'))
 
 
 
@@ -105,7 +105,7 @@ tab = tab
 grafo_usoyllamadas(tab, 'Uso CR y cantidad llamadas \n Marchas 2019')
 plt.savefig('../Resultado_script/Usoyllamadas_Marchas2019.png',bbox_inches="tight")
 plt.clf()
-grafo_perdidasyduracion(tab, 'Llamadas perdidas y duración \n Marchas 2020')
+grafo_perdidasyduracion(tab, 'Llamadas perdidas y duración \n Marchas 2019')
 # plt.show()
 plt.savefig('../Resultado_script/Perdidasyduracion_Marchas2019.png',bbox_inches="tight")
 plt.clf()
